@@ -35,5 +35,5 @@ Route::get('admin',function(){
     // }
      dd('AdminPage');
 
-});
+})->middleware('admin');
 require __DIR__.'/auth.php';
